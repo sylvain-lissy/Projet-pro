@@ -1,0 +1,90 @@
+[
+    {
+        "qualite": "Autonome",
+        "description": "La formation que je viens de suivre chez Openclassrooms, je l'ai faite en solicitant le moins possible."
+    },
+    {
+        "qualite": "Aventureux",
+        "description": "J'aime découvrir, apprendre de nouvelles choses. Je me reconverti... Si ça, ce n'est pas de l'aventure !"
+    },
+    {
+        "qualite": "Combatif",
+        "description": "Je me suis démené pour mener à bien et en temps ma formation."
+    },
+    {
+        "qualite": "Conscienceux",
+        "description": "J'aime faire tout ce que je peux et le faire bien, je n'aime pas le travail inachevé."
+    },
+    {
+        "qualite": "Créatif",
+        "description": "J'ai des idées qui me traverse l'esprit en permanence dans tout les domaines possible. J'aime essayer d'en faire resortir un résultat."
+    },
+    {
+        "qualite": "Curieux",
+        "description": "Quand je ne sais pas quelque chose, j'aime faire des recherches et me documenter sur le sujet afin d'en savoir assez pour ne pas être ignorant."
+    },
+    {
+        "qualite": "Débrouillard",
+        "description": "Je veux toujours essayer de faire un maximum par moi-même, j'aime toucher à tout."
+    },
+    {
+        "qualite": "Déterminé",
+        "description": "J'aime aller au bout des choses et si je rencontre des problèmes, je tente de les résoudre en cherchant et le cas échéant, je demande de l'aide."
+    },
+    {
+        "qualite": "Dynamique",
+        "description": "Je suis toujours très enjoué par les nouveautés, les défis."
+    },
+    {
+        "qualite": "Empathique",
+        "description": "Je comprend aisément les autres, leur idées, leur pensées..."
+    },
+    {
+        "qualite": "Endurant",
+        "description": "Je ne me décourage pas facilement et s'il faut continuer encore et encore, je le fait si cela est nécessaire."
+    },
+    {
+        "qualite": "Energique",
+        "description": "Je garde le sourire en toute circonstance pour ne pas avoir de répercution sur ma journée et j'évacue dès que possible."
+    },
+    {
+        "qualite": "Entreprenant",
+        "description": "J'aime prendre des initiatives pour essayer de faire mieux ou plus qu'attendu."
+    },
+    {
+        "qualite": "Esprit d'équipe",
+        "description": "J'aime travailler en équipe, j'aime communiquer, transmettre et recevoir."
+    },
+    {
+        "qualite": "Flexible",
+        "description": "Je ne suis pas borné, je sais prendre la critique et m'adapter."
+    },
+    {
+        "qualite": "Impliqué",
+        "description": "Je suis toujours à fond dans ce que je fais sinon je ne le fait pas !"
+    },
+    {
+        "qualite": "Optimiste",
+        "description": "Je vois toujours le bon côté des choses. Il y a toujours une solution !"
+    },
+    {
+        "qualite": "Organisé",
+        "description": "J'aime quand les choses sont bien faites. Après chacun son organisation aussi mais je sais m'adapter."
+    },
+    {
+        "qualite": "Persévérant",
+        "description": "Faut toujours aller au bout des choses !"
+    },
+    {
+        "qualite": "Polyvalent",
+        "description": "J'aime toucher un peu à tout. Je n'aime pas me contenter d'une seule tâche."
+    },
+    {
+        "qualite": "Ponctuel",
+        "description": "J'aime que tout soit fait dans les temps, que les personnes soit à l'heure, donc moi aussi !"
+    },
+    {
+        "qualite": "Responsable",
+        "description": "J'assume mes erreurs, je les corriges. / J'aime aussi dirigé une équipe !"
+    }
+]

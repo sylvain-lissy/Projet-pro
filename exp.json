@@ -1,0 +1,30 @@
+[
+    {
+        "experience": "Projet 1",
+        "niveau": "2",
+        "competence": "Mettre en place un tableau de bord de veille technologique",
+        "preuve": "cf Projet 1",
+        "action": "Continuer ma veille"
+    },
+    {
+        "experience": "Projet 1",
+        "niveau": "2",
+        "competence": "Sélectionner des sources pertinentes pour une veille technologique",
+        "preuve": "cf Projet 1",
+        "action": "Continuer à faire des recherches"
+    },
+    {
+        "experience": "Projet 1",
+        "niveau": "3",
+        "competence": "Établir un plan de formation",
+        "preuve": "cf Projet 1",
+        "action": "Continuer d'établir des plannings pour diverses tâches"
+    },
+    {
+        "experience": "Projet 1",
+        "niveau": "3",
+        "competence": "Définir un poste pertinent pour un développeur web",
+        "preuve": "cf Projet 1",
+        "action": "Peaufiner ma recherche et affiner mes choix."
+    }
+]
