@@ -26,5 +26,47 @@
         "competence": "Définir un poste pertinent pour un développeur web",
         "preuve": "cf Projet 1",
         "action": "Peaufiner ma recherche et affiner mes choix."
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "3",
+        "competence": "Intégrer du contenu conformément à une maquette",
+        "preuve": "cf Projet 2",
+        "action": ""
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "3",
+        "competence": "Préparer des éléments graphiques et textuels à intégrer à une page web",
+        "preuve": "cf Projet 2",
+        "action": ""
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "3",
+        "competence": "Adapter l'affichage d'un site web à des écrans de petite taille",
+        "preuve": "cf Projet 2",
+        "action": ""
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "2",
+        "competence": "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
+        "preuve": "cf Projet 2",
+        "action": ""
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "3",
+        "competence": "Définir la structure d'une page web à partir d'une maquette",
+        "preuve": "cf Projet 2",
+        "action": ""
+    },
+    {
+        "experience": "Projet 2",
+        "niveau": "3",
+        "competence": "Assurer la conformité d'une page web aux standards HTML et CSS",
+        "preuve": "cf Projet 2",
+        "action": ""
     }
 ]
