@@ -144,6 +144,10 @@ h3
 	color: white;
 }
 
+.competences p {
+	margin: 10px 0;
+}
+
 .contact a, a:visited
 {
 	color:white;
@@ -166,6 +170,7 @@ h3
 	width: 24px;
 	margin-right: 10px;
 }
+
 .apropos p
 {
 	text-align: justify;
@@ -175,7 +180,12 @@ h3
 
 progress {
 	-webkit-appearance: none;
-  }
+	-moz-appearance: none;
+	appearance: none;
+	background-color: white;
+	border-radius: 10px;
+	border:none;
+}
 	::-webkit-progress-bar {
 	background-color: white;
 	border-radius: 10px;
@@ -184,10 +194,14 @@ progress {
 		background-color: #206285;
 		border-radius: 10px;
 	}
+	::-moz-progress-bar {
+		background-color: #206285;
+		border-radius: 10px;
+	}
 
 .loisir
 {
-	padding: 20px 0;
+	padding: 20px 20px 20px 0;
 	padding-bottom: 0;
 	display: flex;
 	flex-direction: row;
@@ -306,7 +320,7 @@ article
 	font-family: 'CooperBook';
 	font-size: 18px;
 	margin: 0;
-	transform: rotate(-1deg)
+	/* transform: rotate(-1deg) */
 }
 
 .recomm
