@@ -19,27 +19,23 @@
 	font-weight: normal;
 	src: url('fonts/CooperHewitt-Thin.otf') format('truetype');
 }
-	
 
 /*CORPS DE PAGE*/
-body
-{
+body {
 	font-family: 'CooperMedium', sans-serif;
 	background-color: #DDDEE0;
 	margin: 0 auto 0 auto;
 }
 
 /*TETE DE PAGE*/
-header
-{
+header {
 	width: 1200px;
 	display: flex;
 	justify-content: center;
 	margin: auto;
 }
 
-.photo_cv 
-{
+.photo_cv {
 	width: 353px;
 	height: 300px;
 	background-color: #0099CB;
@@ -49,14 +45,12 @@ header
 	justify-content: center;
 }
 
-.photo_cv img
-{
+.photo_cv img {
 	border-radius: 50%;
 	border: 6px solid white;
 }
 
-.nom_cv
-{
+.nom_cv {
 	width: 847px;
 	height: 300px;
 	background-color: white;
@@ -70,16 +64,14 @@ header
 	font-family: 'CooperBook';
 }
 
-h1
-{
+h1 {
 	color: #0099CB;
 	font-size: 50px;
 	text-align: center;
 	margin: 0;
 }
 
-h2
-{
+h2 {
 	font-size: 20px;
 	color: #828284;
 	text-align: center;
@@ -87,28 +79,22 @@ h2
 	margin: 0;
 }
 
-
-
 /*CONTENEUR PRINCIPAL */
-main
-{
+main {
 	width:1200px;
 	display: flex;
     justify-content: center;
     margin: auto;
 }
 
-
 /*MENU DE GAUCHE*/
-aside
-{
+aside {
 	width: 383px;
 	background-color: #0099CB;
 	position: relative;
 }
 
-.title_mnu
-{
+.title_mnu {
 	background-color: black;
 	color: white;
 	height: 50px;
@@ -117,26 +103,22 @@ aside
 	flex-direction: column;
 }
 
-h3 
-{
+h3 {
 	padding: 0 0 0 20px;
 	margin: auto 0;
 }
 
-.bold
-{
+.bold {
 	font-weight: bold;
 }
 
-.contact, .competences, .apropos 
-{
+.contact, .competences, .apropos {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
 }
 
-.contact p, .competences p
-{
+.contact p, .competences p {
 	display:flex;
 	align-items: center;
 	text-align: left;
@@ -148,20 +130,17 @@ h3
 	margin: 10px 0;
 }
 
-.contact a, a:visited
-{
+.contact a, a:visited {
 	color:white;
 	text-decoration: none;
 }
 
-.contact a:hover
-{
+.contact a:hover {
 	color:white;
 	text-decoration: underline;
 }
 
-.contact img 
-{
+.contact img  {
 	background: #206285;
 	padding: 10px;
 	margin: 0;
@@ -171,42 +150,18 @@ h3
 	margin-right: 10px;
 }
 
-.apropos p
-{
+.apropos p {
 	text-align: justify;
 	color: white;
 	font-family: 'CooperBook';
 }
 
-progress {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	background-color: white;
-	border-radius: 10px;
-	border:none;
-}
-	::-webkit-progress-bar {
-	background-color: white;
-	border-radius: 10px;
-	}
-	::-webkit-progress-value {
-		background-color: #206285;
-		border-radius: 10px;
-	}
-	::-moz-progress-bar {
-		background-color: #206285;
-		border-radius: 10px;
-	}
-
-.loisir
-{
+.loisir {
 	padding: 20px 20px 20px 0;
 	padding-bottom: 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
 
 .loisir div {
@@ -214,8 +169,7 @@ progress {
 	align-items: center;
 }
 
-.ico_loisir
-{
+.ico_loisir {
 	margin-right: 0px;
     width: 50px;
     height: 50px;
@@ -228,6 +182,7 @@ progress {
 	background-color: #949599;
 	padding: 3px;
 }
+
 .ico_loisir img {
 	width:36px;
 	height:36px;
@@ -240,8 +195,7 @@ progress {
 }
 
 /*CONTENU DE LA PAGE*/
-article
-{
+article {
 	width: 847px;
 	padding: 0 0 20px 65px;
 	background-color: white;
@@ -249,8 +203,7 @@ article
 	flex-direction: column;
 }
 
-.title_article
-{
+.title_article {
 	height: 50px;
 	text-transform: uppercase;
 	border-bottom: 2px #0099CB solid;
@@ -265,24 +218,21 @@ article
 	font-family:'CooperMedium'
 }
 
-.icon_title
-{
+.icon_title {
 	color:#0099CB;
 	margin-left: 18px;
 	margin-right: 18px;
 	font-size: 30px;
 }
 
-.formation, .expe_pro
-{
+.formation, .expe_pro {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 10px;
 }
 
-.date_formation, .date_expe_pro
-{
+.date_formation, .date_expe_pro {
 	display: flex;
 	flex-direction: row;
   	align-items: baseline;
@@ -292,20 +242,17 @@ article
 	font-family: 'CooperBook';  
 }
 
-.detail_formation, .detail_expe_pro
-{
+.detail_formation, .detail_expe_pro {
 	padding-left: 20px;
 	width:70%;
 }
 
-.detail_formation p, .detail_expe_pro p
-{
+.detail_formation p, .detail_expe_pro p {
 	color:#828284;
 	font-family: 'CooperThin';
 }
 
-.detail_formation h3, .detail_expe_pro h3
-{
+.detail_formation h3, .detail_expe_pro h3 {
 	padding: 0;
 	color: #505052;
 	font-family: 'CooperMedium';
@@ -313,44 +260,37 @@ article
 	text-transform: uppercase;
 }
 
-.detail_formation h4, .detail_expe_pro h4
-{
+.detail_formation h4, .detail_expe_pro h4 {
 	padding: 0;
 	color: #0099CB;
 	font-family: 'CooperBook';
 	font-size: 18px;
 	margin: 0;
-	/* transform: rotate(-1deg) */
 }
 
-.recomm
-{
+.recomm {
 	display: flex;
 	justify-content: space-around;
 }
 
-.dot_circle
-{
+.dot_circle {
 	color: #0099CB;
 	font-size: 20px;
 	margin-right: 18px;
 }
 
-.circle
-{
+.circle {
 	color: #0099CB;
 	font-size: 15px;
 	margin-right: 23px;
 }
 
-.level_ok
-{
+.level_ok {
 	color: white;
 	font-size: 14px;
 }
 
-.level_nok
-{
+.level_nok {
 	color: #206285;
 	font-size: 14px;
 }
@@ -387,38 +327,32 @@ article
 /* règles au format responsive avec les media queries */
 @media all and (max-width: 900px)
 {
-  body{
+  body {
 	margin: 0;
   }
 
-  header
-  {
+  header {
     width: auto;
     margin: auto;
     flex-direction: column;
   }
 
-  h2
-  {
+  h2 {
     height: auto;
   }
 
-  .photo_cv:nth-child(1)
-  {
+  .photo_cv:nth-child(1) {
     order: 2;
 	width: auto;
 	height: auto;
 	padding: 10px;
-	 
   }
   
-  .photo_cv img
-  {
-	margin-top: 10px;
+  .photo_cv img {
+	margin: 10px 0;
   }
   
-  .nom_cv:nth-child(2)
-  {
+  .nom_cv:nth-child(2) {
     order: 1;
     width: auto;
     margin: 0;
@@ -426,45 +360,37 @@ article
     text-align: center;
   }
 
-  main
-  {
+  main {
     flex-direction: column;
     width: auto;
     margin: auto;
   }
 
-  aside
-  {
+  aside {
     width: auto;
     margin: auto;
   }
 
-  .apropos, .contact, .loisir
-  {
+  .apropos, .contact, .loisir {
     padding: 30px;
   }
 
-  .contact p
-  {
+  .contact p {
     text-align: center;
   }
   
-  #div_loisir
-  {
+  #div_loisir {
 	position: relative;
   }
 
-  article
-  {
+  article {
 	width: auto;
 	height:auto;
     margin: auto;
     padding: 15px;
   }
 
-  .title_mnu
-  {
-    height: auto;
+  .title_mnu {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -472,25 +398,21 @@ article
     padding-bottom: 0px;
   }
 
-  .title_article
-  {
+  .title_article {
 	justify-content: center;
   }
 
-  .formation, .expe_pro
-  {
+  .formation, .expe_pro {
     flex-direction: column;
 	justify-content: space-between;
   }
 
-  .detail_formation, .detail_expe_pro
-  {
+  .detail_formation, .detail_expe_pro {
 	width: auto;
 	padding: 0 15px;
   }
   
-  .recomm
-  {
+  .recomm {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -504,33 +426,61 @@ article
 	  display: block;
   }
 
-  .competences {
-	  width: 50%;
+  .skill {
+	  width: auto;
+	  display: flex;
+	  justify-content: center;
   }
+
+  .skill_name {
+	  width: 20%;
+  }
+
+  .skill_level {
+	  width: 20%;
+  }
+
 }
 
 @media all and (max-width: 500px)
 {
  .detail_expe_pro, .detail_formation {
-	 padding: 0;
+	padding: 0;
  }
 
  .loisir {
-	 flex-direction: column;
-	 padding: 15px 0 0 0;
+	flex-direction: column;
+	padding: 15px 0 0 0;
  }
  
- .loisir div{
-	 padding-bottom: 5px;
+ .loisir div {
+	padding-bottom: 5px;
  }
 	
- .title_article h2
- {
+ .title_article h2 {
 	font-size: 19px;
  }
 
- .icon_title
- {
+ .icon_title {
 	display: none;
+ }
+
+ .skill {
+	display:flex; 
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+ }
+
+ .skill_name {
+	width: 50%; 
+	display: flex; 
+	justify-content: space-between;
+ } 
+
+ .skill_level {
+	width: 40%; 
+	display: flex; 
+	justify-content: space-between;
  }	
 }
