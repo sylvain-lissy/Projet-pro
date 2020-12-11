@@ -343,6 +343,46 @@ article
 	margin-right: 23px;
 }
 
+.level_ok
+{
+	color: white;
+	font-size: 14px;
+}
+
+.level_nok
+{
+	color: #206285;
+	font-size: 14px;
+}
+.skill {
+	display:flex; 
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skill_name {
+	width: 50%; 
+	display: flex; 
+	justify-content: space-between;
+}
+
+.skill_level {
+	width: 40%; 
+	display: flex; 
+	justify-content: space-between;
+}
+
+.dating {
+	display: block;
+}
+.dating p {
+	margin: 0 0 5px 0;
+}
+
+.adating {
+	display: none;
+}
 
 /* règles au format responsive avec les media queries */
 @media all and (max-width: 900px)
@@ -455,10 +495,35 @@ article
     flex-direction: column;
     text-align: center;
   }
+
+  .dating {
+	display: flex;
+  }
+
+  .adating {
+	  display: block;
+  }
+
+  .competences {
+	  width: 50%;
+  }
 }
 
 @media all and (max-width: 500px)
 {
+ .detail_expe_pro, .detail_formation {
+	 padding: 0;
+ }
+
+ .loisir {
+	 flex-direction: column;
+	 padding: 15px 0 0 0;
+ }
+ 
+ .loisir div{
+	 padding-bottom: 5px;
+ }
+	
  .title_article h2
  {
 	font-size: 19px;
