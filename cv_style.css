@@ -130,12 +130,12 @@ h3 {
 	margin: 10px 0;
 }
 
-.contact a, a:visited {
+.contact a, a:visited, .pdf a, .pdf_tab a {
 	color:white;
 	text-decoration: none;
 }
 
-.contact a:hover {
+.contact a:hover, .pdf a:hover, .pdf_tab:hover {
 	color:white;
 	text-decoration: underline;
 }
@@ -148,6 +148,32 @@ h3 {
 	height: 24px;
 	width: 24px;
 	margin-right: 10px;
+}
+.pdf_tab {
+	display: none;
+}
+
+.pdf {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+
+.pdf img, .pdf_tab img {
+	padding: 0 10px;
+	margin: 0;
+	width: 24px;
+	height: 24px;
+}
+.pdf p, .pdf_tab p  {
+	display: flex;
+	align-items: center;
+	background: #206285;
+	padding: 10px 20px 10px 10px;
+	margin: 0;
+	border-radius: 10px;
+	height: 24px;
+	margin: 0 10px;
 }
 
 .apropos p {
@@ -268,6 +294,12 @@ article {
 	margin: 0;
 }
 
+h5 {
+	padding: 0;
+	margin: 4px 0 0 0;
+	color: #828284;
+}
+
 .recomm {
 	display: flex;
 	justify-content: space-around;
@@ -372,7 +404,7 @@ article {
   }
 
   .apropos, .contact, .loisir {
-    padding: 30px;
+    padding: 10px;
   }
 
   .contact p {
@@ -438,6 +470,16 @@ article {
 
   .skill_level {
 	  width: 20%;
+  }
+
+  .pdf {
+	  display: none;
+  }
+
+  .pdf_tab {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
   }
 
 }
