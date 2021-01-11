@@ -79,6 +79,10 @@ h2 {
 	margin: 0;
 }
 
+.italic {
+	font-style: italic;
+}
+
 /*CONTENEUR PRINCIPAL */
 main {
 	width:1200px;
@@ -130,7 +134,7 @@ h3 {
 	margin: 10px 0;
 }
 
-.contact a, a:visited, .pdf a, .pdf_tab a {
+.contact a, .pdf a, .pdf_tab a {
 	color:white;
 	text-decoration: none;
 }
@@ -149,6 +153,7 @@ h3 {
 	width: 24px;
 	margin-right: 10px;
 }
+
 .pdf_tab {
 	display: none;
 }
@@ -294,6 +299,28 @@ article {
 	margin: 0;
 }
 
+ul {
+	margin-top: 0;
+	padding-left: 18px;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	color:#828284;
+	font-size: 16px;
+	font-family: 'CooperThin';
+}
+
+.ProjectLink {
+	text-decoration: none;
+	color: #505052;
+}
+
+.ProjectLink:hover {
+	text-decoration: underline;
+}
+
 h5 {
 	padding: 0;
 	margin: 4px 0 0 0;
@@ -326,11 +353,18 @@ h5 {
 	color: #206285;
 	font-size: 14px;
 }
+
+.level_soft {
+	color: white;
+	font-size: 10px;
+}
+
 .skill {
 	display:flex; 
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	height: 25px;
 }
 
 .skill_name {
@@ -372,7 +406,10 @@ h5 {
   h2 {
     height: auto;
   }
-
+  
+  h3 {
+	padding: 0; 
+  }
   .photo_cv:nth-child(1) {
     order: 2;
 	width: auto;
@@ -472,6 +509,10 @@ h5 {
 	  width: 20%;
   }
 
+  .level_soft {
+	  display: none;
+  }
+
   .pdf {
 	  display: none;
   }
@@ -524,5 +565,9 @@ h5 {
 	width: 40%; 
 	display: flex; 
 	justify-content: space-between;
- }	
+ }
+ 
+ .level_soft {
+	 display: block;
+ }
 }
